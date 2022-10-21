@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3200836327345539236}
   - component: {fileID: 3200836327345539237}
   m_Layer: 0
-  m_Name: Explosion VFX
+  m_Name: Player explosion 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -26,12 +26,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3200836327345539238}
   m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 215.25, y: 35.75, z: 121.58}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: -1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!198 &3200836327345539236
 ParticleSystem:
@@ -226,22 +226,22 @@ ParticleSystem:
       maxColor: {r: 0, g: 0.5283019, b: 0.4470546, a: 1}
       maxGradient:
         serializedVersion: 2
-        key0: {r: 0, g: 0.745283, b: 0.67880857, a: 1}
-        key1: {r: 0.3622641, g: 1, b: 0.95444334, a: 1}
-        key2: {r: 0, g: 0.52575725, b: 0.6132076, a: 1}
-        key3: {r: 0, g: 0.52575725, b: 0.6132076, a: 0}
-        key4: {r: 0.5226415, g: 0.9627191, b: 1, a: 0}
-        key5: {r: 0.22677107, g: 0.49519053, b: 0.6603774, a: 0}
-        key6: {r: 0, g: 0.31986684, b: 0.6226415, a: 0}
-        key7: {r: 0, g: 0, b: 0, a: 0}
-        ctime0: 18504
-        ctime1: 26214
-        ctime2: 33346
-        ctime3: 46260
-        ctime4: 50115
-        ctime5: 65535
-        ctime6: 55127
-        ctime7: 60138
+        key0: {r: 0.8265814, g: 0.9528302, b: 0.07550723, a: 1}
+        key1: {r: 0.6886792, g: 0.29638082, b: 0.22349589, a: 1}
+        key2: {r: 0.8207547, g: 0.20441435, b: 0.20441435, a: 1}
+        key3: {r: 0.8207547, g: 0.20441435, b: 0.20441435, a: 0}
+        key4: {r: 1, g: 0, b: 0, a: 0}
+        key5: {r: 0.990566, g: 0.66261435, b: 0.5644357, a: 0}
+        key6: {r: 0.28926393, g: 0.6886792, b: 0.25598073, a: 0}
+        key7: {r: 0.22677107, g: 0.49519053, b: 0.6603774, a: 0}
+        ctime0: 16384
+        ctime1: 25443
+        ctime2: 25636
+        ctime3: 33346
+        ctime4: 45104
+        ctime5: 50115
+        ctime6: 65535
+        ctime7: 65535
         atime0: 0
         atime1: 65535
         atime2: 65535
@@ -251,7 +251,7 @@ ParticleSystem:
         atime6: 0
         atime7: 0
         m_Mode: 1
-        m_NumColorKeys: 6
+        m_NumColorKeys: 7
         m_NumAlphaKeys: 2
       minGradient:
         serializedVersion: 2
