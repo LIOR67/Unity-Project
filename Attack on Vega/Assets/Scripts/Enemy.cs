@@ -4,10 +4,19 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
-    [SerializeField] GameObject DeathVfx; 
+    [SerializeField] int KillScore;
+    [SerializeField] GameObject DeathVfx;
+    [SerializeField] Transform Parent;
+    Score scoreBoard;
+    private void Start()
+    {
+        scoreBoard = FindObjectOfType<Score>(); 
+    }
     private void OnParticleCollision(GameObject other)
     {
-        Instantiate(DeathVfx, transform.position, Quaternion.identity);
+        scoreBoard.IncreaseScore(KillScore);
+        GameObject Vfx =Instantiate(DeathVfx, transform.position, Quaternion.identity);
+        Parent = Vfx.transform.parent;
         Destroy(gameObject);
     }
    
