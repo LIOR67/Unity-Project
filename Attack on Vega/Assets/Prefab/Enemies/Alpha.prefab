@@ -67,9 +67,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   KillScore: 100
   HitPoints: 100
-  DeathVfx: {fileID: 3200836327345539238, guid: 900164020278eeb46b928b3414ade468, type: 3}
+  Deathfx: {fileID: 3200836327345539238, guid: 900164020278eeb46b928b3414ade468, type: 3}
   HitFX: {fileID: 3200836327345539238, guid: a5c7e042d080ca344970aa02afd37020, type: 3}
-  Parent: {fileID: 0}
 --- !u!65 &5850349662514636413
 BoxCollider:
   m_ObjectHideFlags: 0
