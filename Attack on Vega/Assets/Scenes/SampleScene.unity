@@ -595,7 +595,7 @@ Light:
   serializedVersion: 10
   m_Type: 1
   m_Shape: 0
-  m_Color: {r: 1, g: 0.5226415, b: 0.9886769, a: 1}
+  m_Color: {r: 1, g: 0.50080645, b: 0.2603774, a: 1}
   m_Intensity: 1.59
   m_Range: 10
   m_SpotAngle: 30
@@ -1029,7 +1029,7 @@ TerrainCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1154280549}
   m_Material: {fileID: 0}
-  m_Enabled: 0
+  m_Enabled: 1
   m_TerrainData: {fileID: 15600000, guid: 3fef1867406f7804bbf2817ad0d9006b, type: 2}
   m_EnableTreeColliders: 0
 --- !u!218 &1154280551
@@ -1426,7 +1426,7 @@ Light:
   serializedVersion: 10
   m_Type: 1
   m_Shape: 0
-  m_Color: {r: 0.9622642, g: 0.8569598, b: 0.9596747, a: 1}
+  m_Color: {r: 0.9245283, g: 0.15081236, b: 0.048843034, a: 1}
   m_Intensity: 0.5
   m_Range: 10
   m_SpotAngle: 30

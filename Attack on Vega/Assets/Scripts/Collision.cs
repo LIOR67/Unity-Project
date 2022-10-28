@@ -7,7 +7,7 @@ public class Collision : MonoBehaviour
     [SerializeField] float ReloadTIme=1f;
     [SerializeField] ParticleSystem Explosion;
     [SerializeField] GameObject[] PlayerParts;
-    private void OnTriggerEnter(Collider other)
+    private void OnCollisionEnter(UnityEngine.Collision collision)
     {
         CrashSequance();
     }
