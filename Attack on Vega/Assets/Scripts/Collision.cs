@@ -9,7 +9,7 @@ public class Collision : MonoBehaviour
     [SerializeField] GameObject[] PlayerParts;
     private void OnCollisionEnter(UnityEngine.Collision collision)
     {
-        CrashSequance();
+        CrashSequance();s
     }
     void CrashSequance()
     {
